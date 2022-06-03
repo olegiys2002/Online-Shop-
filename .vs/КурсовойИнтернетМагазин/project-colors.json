@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a689241-5a06-4107-8ea7-4ea0dd02b8b6": {
+      "ProjectGuid": "8a689241-5a06-4107-8ea7-4ea0dd02b8b6",
+      "DisplayName": "КурсовойИнтернетМагазин",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "677f3f02-009b-4d4d-8a10-f685d8f00e51": {
+      "ProjectGuid": "677f3f02-009b-4d4d-8a10-f685d8f00e51",
+      "DisplayName": "Shop.Core",
+      "ColorIndex": 1
+    },
+    "8798dfce-29e9-41d1-b08e-01ce9a606a37": {
+      "ProjectGuid": "8798dfce-29e9-41d1-b08e-01ce9a606a37",
+      "DisplayName": "Shop.Application",
+      "ColorIndex": 2
+    },
+    "fb025c31-c60e-4b82-bd4f-bbe651c76f81": {
+      "ProjectGuid": "fb025c31-c60e-4b82-bd4f-bbe651c76f81",
+      "DisplayName": "Shop.Infrastructure",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

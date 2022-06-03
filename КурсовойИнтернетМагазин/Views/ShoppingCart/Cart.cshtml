@@ -1,0 +1,41 @@
+﻿@using КурсовойИнтернетМагазин.ViewModels.ShoppingCartViewModel
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+ 
+}
+@model CartShopViewModel
+<h2> Ваша корзина</h2>
+
+@foreach(var cartItem in Model.CartItemDTOs){
+<div class="flex"> 
+    <div width="400">
+        <img src=@cartItem.Product.Img.Path width="350" height="250"> 
+    </div>
+    <div>
+        <p> Наименование товара: @cartItem.Product.Name </p>
+        <p> Производитель:   @cartItem.Product.Manufacturer </p>
+        <p> Цена:  @cartItem.Product.Cost BYN </p>
+        <p> Описание:  @cartItem.Product.Description </p>
+        <p> Количество товара: @cartItem.Quentity</p>
+        <form method="post">
+        <button class="btn btn-primary" type="submit" asp-route-productId=@cartItem.ProductId asp-action="DeleteFromCart"> Удалить </button>
+        </form>
+        <br>
+    </div>
+</div>
+}
+ <div class="flex">
+ <div>
+    <form method="get"> 
+             <input class="btn btn-success" type="submit" value="Оформить заказ" asp-controller="Order" asp-action="NewOrder">
+    </form>
+ </div>
+ <div>
+       <p>Итоговая стоимость: @Model.Total</p>
+ </div>
+
+</div>   

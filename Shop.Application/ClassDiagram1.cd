@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shop.Application.DTO.ApplicationUserDTO" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgACAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ApplicationUserDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.Application.DTO.CartItemDTO" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>DTO\CartItemDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.Application.DTO.CategoryDTO" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\CategoryDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.Application.DTO.ImageDTO" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ImageDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.Application.DTO.OrderDTO">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAAEAAACAAAAAAAAAAAAAgAAAAQAACAAAAIAAAAAg=</HashCode>
+      <FileName>DTO\OrderDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shop.Application.DTO.ProductDTO">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAgAAAAAAAAABQAAAAAABAAAAAAAAAACAA=</HashCode>
+      <FileName>DTO\ProductDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Shop.Application.IRepositories.ICartRepository">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRepositories\ICartRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IRepositories.ICategoryRepository">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRepositories\ICategoryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IRepositories.IOrderRepository">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>IRepositories\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IRepositories.IProductRepository">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAAAAAAIQAAAACAQAAAAAAAAACAABAAAAA=</HashCode>
+      <FileName>IRepositories\IProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IRepositories.IUserRepository">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAQAACAAgAAAAAQEAAAA=</HashCode>
+      <FileName>IRepositories\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.IAuthenticationService">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>IServices\IAuthenticationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.ICategoryService">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IServices\ICategoryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.IOrderService">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAQAAAAAAIAAAAAAgAAAAAAAAAg=</HashCode>
+      <FileName>IServices\IOrderService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.IProductService">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAAAEAAIQAAAACAQAAABAAAAAAAABAAAAA=</HashCode>
+      <FileName>IServices\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.IShoppingCartService">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAACAAAAACAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IServices\IShoppingCartService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.IUnitOfWork">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAEAIAAAACA=</HashCode>
+      <FileName>IServices\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Shop.Application.IServices.IUserService">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAAAAQAAAAABAAAAAYEAAAA=</HashCode>
+      <FileName>IServices\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

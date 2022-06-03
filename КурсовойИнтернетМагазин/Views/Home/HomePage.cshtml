@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model HomePageViewModel
+
+<div class="row">
+    <div class="flex"> 
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+             <a class="link-style  text-left" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Стиральные машины"> Стиральные машины</a>
+             <img class="rounded mx-auto d-block" width=250 height=250 src="/images/WashingMachine.jpg"/>  
+        </div>
+      </div>
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+             <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Холодильники"> Холодильники</a>
+             <img class="rounded mx-auto d-block" width=250 height=250 src="/images/Friges.jpg" />
+         </div>
+      </div>
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+            <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Наушники"> Наушники </a>
+            <img class="rounded mx-auto d-block" width=250 height=250 src="/images/earphones.jpg "/> 
+        </div>
+      </div>
+       <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+            <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Блендеры"> Блендеры </a>
+            <img class="rounded mx-auto d-block" width=250 height=250 src="/images/Blenders.jpg"/> 
+        </div>
+      </div>
+    </div>
+</div>
+<div class="row ">
+    <div class="flex"> 
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+             <a class="link-style  text-left" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Кофемашины"> Кофемашины </a>
+             <img class="rounded mx-auto d-block" width=250 height=250 src="/images/CoffeeMakers.jpg"/>  
+        </div>
+      </div>
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+             <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Мясорубки"> Мясорубки</a>
+             <img class="rounded mx-auto d-block" width=250 height=250 src="/images/MeatGrinders.jpg" />
+         </div>
+      </div>
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+            <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Телевизоры"> Телевизоры </a>
+            <img class="rounded mx-auto d-block" width=250 height=250 src="/images/TV.jpg"/> 
+        </div>
+      </div>
+       <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+            <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Пылесосы"> Пылесосы </a>
+            <img class="rounded mx-auto d-block" width=250 height=250 src="/images/VacuumСleaners.jpg"/> 
+        </div>
+      </div>
+    </div>
+</div>
+<div class="row ">
+    <div class="flex"> 
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+             <a class="link-style  text-left" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Соковыжималки"> Соковыжималки</a>
+             <img class="rounded mx-auto d-block" width=250 height=250 src="/images/Juicers.jpg"/>  
+        </div>
+      </div>
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+             <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Кондиционеры"> Кондиционеры</a>
+             <img class="rounded mx-auto d-block" width=250 height=250 src="/images/AirСonditioners.jpg" />
+         </div>
+      </div>
+      <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+            <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Мультиварки"> Мультиварки </a>
+            <img class="rounded mx-auto d-block" width=250 height=250 src="/images/Multicookers.jpg"/> 
+        </div>
+      </div>
+       <div class="col-3 m-3">
+         <div class="d-flex flex-column categoryImageDesign">
+            <a class="link-style" asp-controller=Product asp-action=GetProductsByCategory asp-route-categoryName="Тостеры"> Тостеры </a>
+            <img class="rounded mx-auto d-block" width=250 height=250 src="/images/Toasters.jpg"/> 
+        </div>
+      </div>
+    </div>
+</div>
+
+

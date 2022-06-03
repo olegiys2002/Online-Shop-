@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "View";
+}
+
+@if (User.IsInRole("admin"))
+{
+    <li class="nav-item">
+        <a class="nav-link active" asp-area="" asp-controller="User" asp-action="Users"> Управление пользователями</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link active" asp-area="" asp-controller="Product" asp-action="ListOfProducts"> Управление продуктами</a>
+    </li>
+     <li class="nav-item">
+        <a class="nav-link active" asp-area="" asp-controller="Order" asp-action="AllOrders">Все Заказы</a>
+    </li>
+}
+
+

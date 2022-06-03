@@ -1,0 +1,73 @@
+﻿
+@*
+	For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@inject SignInManager<ApplicationUser> SignInManager
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+	
+		<div class="container">
+			 <div class="row">
+
+				<div class="col-3">
+				<a class="navbar-brand" asp-controller="Home" asp-action="HomePage"> OlegiysTech </a>
+				</div>
+
+				<div class="col-9">
+					<div id="navbarColor01" class="flex-menu">
+
+						<ul class="navbar-nav me-auto">
+
+						<li class="nav-item">
+							<partial name="_AdminFunctionalPartial" />
+						</li>
+		 
+						<li class="nav-item">
+							<partial name="_LoginPartial" />
+						</li>
+	   
+						</ul>
+
+						<form class="d-flex" asp-controller="Product" asp-action="GetProductsByName" >
+						<input name="searchString" class="form-control me-sm-2" type="text" placeholder="Search">
+						<button class="btn btn-secondary my-2 my-sm-0 m-lg-2" type="submit" >Search</button>
+						</form>
+							
+						<form class="d-flex" asp-action="Cart"  asp-controller="ShoppingCart">
+							<button class="btn btn-secondary my-2 my-sm-0 m-lg-2"  type="submit" > Корзина </button>
+						</form>
+					
+						<a class="nav-link active" asp-area="" asp-action=GetListOfOrders asp-controller="Order"> Заказы </a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	@*<div class="header">
+		<div class="menu">
+			<div class="container">
+				<div class=row>
+					<div class=col-5> 
+						<div class="logo">
+							<a asp-action="HomePage"> OlegiysTech</a>
+						</div>
+					</div>
+					<div class=col-7>
+						<nav>
+							<ul>
+								<li><a href="#"> Sign in </a> </li>
+								<li><a href="#"> Register </a></li>
+								<li><a href="#"> </a></li>
+								<li><a href="#"> </a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	*@

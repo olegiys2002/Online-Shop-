@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model EditProductViewModel
+
+<div class="product-form-block-design">
+    <h3 class="h3-design">Изменить продукт</h3>
+<form asp-action="EditProduct" method="post" class="form-design-product" enctype="multipart/form-data">
+
+<fieldset class="border-1 border-dark">
+    <div>
+
+      <div class="input-group mb-2">
+            <label class="label-design mb-2" asp-for=productDTO.Name> </label>
+            <br>
+            <input class="w-100" asp-for=productDTO.Name  type="text" >
+            <span asp-validation-for=productDTO.Name></span>
+          </div>
+      <div>
+          <input type="hidden" asp-for=productDTO.Id>  
+      </div>
+
+      <div class="input-group mb-2">
+            <label class="label-design mb-3" asp-for=productDTO.Manufacturer>  </label>
+            <br>
+            <input class="w-100" asp-for=productDTO.Manufacturer type="text"/>
+             <span asp-validation-for=productDTO.Manufacturer></span>
+      </div>
+      <div class="input-group mb-2">
+            <label class="label-design mb-3" asp-for=productDTO.Cost>  </label>
+            <br>
+            <input class="w-100" asp-for=productDTO.Cost type="text"/>
+             <span asp-validation-for=productDTO.Cost></span>
+      </div>
+      <div class="input-group mb-2">
+            <label class="label-design  mb-3" asp-for=productDTO.Category.Name>  </label>
+            <br>
+            <input class="w-100" asp-for=productDTO.Category.Name type="text"/>
+            <span asp-validation-for=productDTO.Category.Name></span>
+      </div>
+      <div class="input-group mb-4">
+            <label class="label-design  mb-3" asp-for=productDTO.Description>  </label>
+            <br>
+            <input class="w-100" asp-for=productDTO.Description type="text" >
+            <span asp-validation-for=productDTO.Description></span>
+      </div>
+      <div class="input-group mb-4">
+          
+             <input class="w-100" asp-for=productDTO.Img.Image type="file">
+             <span asp-validation-for=productDTO.Img.Image></span>    
+      </div>
+     
+      <div class="input-group mb-2">
+             <button  class="btn btn-primary" type="submit"> Изменить </button>
+      </div>
+
+  </div>
+
+</fieldset>
+
+</form>
+
+</div>

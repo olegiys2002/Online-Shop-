@@ -1,0 +1,29 @@
+﻿@using Shop.Core.Models.Orders
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*@model List<Order>
+
+@foreach(var products in Model){
+<div class=" col-12">
+    <h3> Заказ</h3>
+    <div>
+        <p> Имя заказика @products.FirstName </p>
+        <br>
+        <p> Емейл заказчика @products.Email </p>
+        <br>
+        <p> Телефон заказчика @products.Phone </p>
+        <br>
+    </div>
+    <div class="mb-3">
+        <p> Имя  товара: @products.Products.Name </p>
+        <br>
+        <p> Наименование товара: @products.Products.Manufacturer </p>
+    </div>
+</div>
+<br>
+<br>
+}
+ *@

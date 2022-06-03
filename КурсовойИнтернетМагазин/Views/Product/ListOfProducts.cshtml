@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ListOfProductsViewModel
+
+<h2> Список продуктов</h2>
+<table class="table table-striped">
+    <tr> <th>Имя продукта </th> <th>Цена </th> <th> Производитель </th> <th> Категория </th> <th><a asp-controller="Product" asp-action="AddProduct" > Добавить </a></th> </tr>
+    @foreach(var product in Model.productDTOs)
+    {
+        <tr>
+            <th> @product.Name </th>
+            <th> @product.Cost </th>
+            <th> @product.Manufacturer </th>
+            <th> @product.Category.Name </th>
+        
+            <form method="post">
+                <th><input type="submit" value="Удалить" asp-controller="Product" asp-action="DeleteProduct" asp-route-id=@product.Id ><th/>
+            </form>
+           
+             <th> <a asp-controller="Product" asp-action="EditProduct" asp-route-productId=@product.Id > Изменить </a></th>
+        </tr>
+    }
+</table>

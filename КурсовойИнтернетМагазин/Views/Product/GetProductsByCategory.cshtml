@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ListOfProductsViewModel
+@inject SignInManager<ApplicationUser> SignInManager
+
+<h2>  @Model.Title </h2>
+<div class="row">
+@foreach(var products in Model.productDTOs){
+<div class="flex col-12"> 
+    <div>
+        <img src=@products.Img.Path width="250" height="250"> 
+    </div>
+    <div>
+        <p> Наименование товара: @products.Name </p>
+        <p> Производитель:  @products.Manufacturer </p>
+        <p> Цена: @products.Cost BYN </p>
+        <p> Описание: @products.Description </p>
+        <form method="post"> 
+        
+                 <input class="btn btn-success" type="submit"  value="Добавить в корзину" asp-controller="ShoppingCart" asp-route-productId=@products.Id asp-action="AddToCart">
+                
+        </form>
+        <br>
+    </div>
+</div>
+}
+</div>

@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ListOfOrdersViewModel
+<div class="row">
+@foreach(var orders in Model.OrderDTOs){
+<div class="flex col-12"> 
+    <div class="mb-3">
+        <p> Уважаемый @orders.FirstName ваш заказ оформлен</p>
+        <p> Скоро с нами свяжется наш оператор!</p>
+        <p> Детали заказа </p>
+        @foreach(var cartItem in orders.OrderDetails){
+            <div class="flex"> 
+                <div width="400">
+                    <img src=@cartItem.Product.Img.Path width="350" height="250"> 
+                </div>
+                <div>
+                    <p> Наименование товара: @cartItem.Product.Name </p>
+                    <p> Производитель:   @cartItem.Product.Manufacturer </p>
+                    <p> Цена:  @cartItem.Product.Cost BYN </p>
+                    <p> Описание:  @cartItem.Product.Description </p>
+                    <p> Количество товара: @cartItem.Quantity</p>
+                    <br>
+                </div>
+            </div>
+            }
+    </div>
+
+</div>
+}
+</div>
