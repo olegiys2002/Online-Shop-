@@ -36,7 +36,7 @@ namespace Shop.Core.Models.Orders
         public string Email { get; set; }
         public double Total { get; set; }
         public bool InStock { get; set; }
-        public bool isAccept { get; set; }
+        public bool IsAccept { get; set; }
         public List<OrderDetails> OrderDetails { get; set; }
 
     }

@@ -5,6 +5,8 @@ namespace КурсовойИнтернетМагазин.ViewModels.OrderViewMod
     public class ListOfOrdersViewModel
     {
         public List<OrderDTO> OrderDTOs { get; set; } = new();
-        public string UserName { get; set; }
+
+        public string IsAccept { get; set; } = "Заказ не подтвержен";
+
     }
 }

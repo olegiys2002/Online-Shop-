@@ -14,6 +14,24 @@ namespace Shop.Infrastructure.Repositories
             _applicationDbContext = applicationDbContext;
         }
 
+        public void DeleteOrder(Order order)
+        {
+            _applicationDbContext.Orders.Remove(order);
+        }
+
+        public async Task<Order> FindOrderById(string orderId)
+        {
+
+            Order order = await _applicationDbContext.Orders.Include(or => or.OrderDetails)
+                                                      .ThenInclude(pr => pr.Product)
+                                                      .ThenInclude(pr => pr.Category)
+                                                      .Include(or => or.OrderDetails)
+                                                      .ThenInclude(pr => pr.Product.Img)
+                                                      .Where(or=>or.OrderId==orderId)
+                                                      .SingleAsync();
+            return order;
+        }
+
         public List<Order> GetAllOrders()
         {
             List<Order> orders = _applicationDbContext.Orders.Include(or=>or.OrderDetails)
@@ -35,9 +53,16 @@ namespace Shop.Infrastructure.Repositories
                                                                    .ToListAsync();
             return orders;
         }
+
+
         public async Task NewOrder(Order order)
         {
             await _applicationDbContext.Orders.AddAsync(order);
+        }
+
+        public void UpdateOrder(Order order)
+        {
+            _applicationDbContext.Orders.Update(order);
         }
     }
 }

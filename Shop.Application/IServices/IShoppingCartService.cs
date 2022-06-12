@@ -9,10 +9,12 @@ namespace Shop.Application.IServices
 {
     public interface IShoppingCartService
     {
+        string GetCartId();
         Task AddToCartAsync(int id);
         Task DeleteFromCartAsync(int id);
         Task<List<CartItemDTO>> GetAllCartItemsforUserAsync();
         Task<double> GetTotalAsync();
+        Task EmptyCartAsync();
 
     }
 }

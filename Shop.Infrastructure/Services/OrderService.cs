@@ -27,9 +27,12 @@ namespace Shop.Infrastructure.Services
             _shoppingCartService = shoppingCartService;
             _productService = productService;
         }
-        public bool ConfirmOrder()
+        public async Task ConfirmOrder(string id)
         {
-            throw new NotImplementedException();
+            Order order = await _unitOfWork.OrderRepository.FindOrderById(id);
+            order.IsAccept = true;
+            _unitOfWork.OrderRepository.UpdateOrder(order);
+            await _unitOfWork.Complete();
         }
 
         public string GetOrderId()
@@ -54,6 +57,7 @@ namespace Shop.Infrastructure.Services
             Order order = await ToOrderAsync(orderDTO);
 
             await _unitOfWork.OrderRepository.NewOrder(order);
+            await _shoppingCartService.EmptyCartAsync();
             await _unitOfWork.Complete();
         }
         public List<OrderDTO> GetAllOrders()
@@ -92,6 +96,8 @@ namespace Shop.Infrastructure.Services
             }
             OrderDTO orderDTO = new()
             {
+                OrderId = order.OrderId,
+                IsAccept = order.IsAccept,
                 FirstName = order.FirstName,
                 LastName = order.LastName,
                 OrderDate = order.OrderDate,
@@ -129,7 +135,7 @@ namespace Shop.Infrastructure.Services
                 OrderDate = DateTime.Now,
                 UserOrder = CurrentOrderId,
                 InStock = false,
-                isAccept = false,
+                IsAccept = false,
                 Total = total,
                 OrderDetails = orderDetails
             };
@@ -162,9 +168,12 @@ namespace Shop.Infrastructure.Services
 
             return orderDetails;
         }
-        public bool RejectOrder()
+        
+        public async Task RejectOrder(string id)
         {
-            throw new NotImplementedException();
+            Order order = await _unitOfWork.OrderRepository.FindOrderById(id);
+            _unitOfWork.OrderRepository.DeleteOrder(order);
+            await _unitOfWork.Complete();
         }
 
 

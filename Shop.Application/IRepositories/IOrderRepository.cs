@@ -10,7 +10,10 @@ namespace Shop.Application.IRepositories
     public interface IOrderRepository
     {
         List<Order> GetAllOrders();
+        void UpdateOrder(Order order);
+        void DeleteOrder(Order order);
         Task<List<Order>> GetOrdersOfUserAsync(string id);
+        Task<Order> FindOrderById(string orderId);
         Task NewOrder(Order order);
 
     }

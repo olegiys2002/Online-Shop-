@@ -1,12 +1,6 @@
-﻿@using КурсовойИнтернетМагазин.ViewModels.ShoppingCartViewModel
+﻿@using КурсовойИнтернетМагазин.ViewModels.ShoppingCartViewModel 
 
 
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
- 
-}
 @model CartShopViewModel
 <h2> Ваша корзина</h2>
 
@@ -28,14 +22,15 @@
     </div>
 </div>
 }
+@if(@Model.CartItemDTOs.Count!=0){
  <div class="flex">
- <div>
-    <form method="get"> 
-             <input class="btn btn-success" type="submit" value="Оформить заказ" asp-controller="Order" asp-action="NewOrder">
-    </form>
- </div>
- <div>
-       <p>Итоговая стоимость: @Model.Total</p>
- </div>
-
+     <div>
+        <form method="get"> 
+                 <input class="btn btn-success" type="submit" value="Оформить заказ" asp-controller="Order" asp-action="NewOrder">
+        </form>
+     </div>
+     <div>
+           <p>Итоговая стоимость: @Model.Total</p>
+     </div>
 </div>   
+}

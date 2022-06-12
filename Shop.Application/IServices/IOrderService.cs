@@ -13,14 +13,14 @@ namespace Shop.Application.IServices
    
         Task NewOrder(OrderDTO orderDTO);
         Task<List<OrderDTO>> GetOrders();
-        bool ConfirmOrder();
-        bool RejectOrder();
+        Task ConfirmOrder(string id);
+        Task RejectOrder(string id);
         List<OrderDTO> GetAllOrders();
         OrderDTO ToOrderDTO(Order order);
         Task<Order> ToOrderAsync(OrderDTO orderDTO);
         OrderDetailsDTO ToOrderDetailsDTO(OrderDetails orderDetails);
         Task<OrderDetails> CartToOrderDetails(CartItemDTO cartItemDTO);
-
+        string GetOrderId();
 
     }
 }

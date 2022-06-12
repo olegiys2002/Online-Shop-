@@ -4,26 +4,47 @@
 *@
 @{
 }
-@*@model List<Order>
-
-@foreach(var products in Model){
-<div class=" col-12">
-    <h3> Заказ</h3>
-    <div>
-        <p> Имя заказика @products.FirstName </p>
-        <br>
-        <p> Емейл заказчика @products.Email </p>
-        <br>
-        <p> Телефон заказчика @products.Phone </p>
-        <br>
-    </div>
-    <div class="mb-3">
-        <p> Имя  товара: @products.Products.Name </p>
-        <br>
-        <p> Наименование товара: @products.Products.Manufacturer </p>
-    </div>
+<div class="row">
+   <div class="col-12"> <p>  Все заказы  </p> </div>
 </div>
-<br>
-<br>
+@model ListOfOrdersViewModel
+<div class="row">
+@foreach(var orders in Model.OrderDTOs){
+<div class="flex col-12"> 
+    <div class="flex m-3">
+        <div class="col-6 m-3">
+        <p> Заказ от @orders.FirstName</p>
+        <p> Email @orders.Email</p>
+        <p> Телефон @orders.Phone </p>
+        @if (@orders.IsAccept == true)
+            {
+               <p><b>Заказ успешно принят пользователем</b></p>     
+            }
+        @if (@orders.IsAccept == false)
+        {
+            <form method="post">
+            <button type="submit" asp-route-id=@orders.OrderId asp-controller="Order" asp-action="ConfirmOrder"> Подтвердить </button>
+            </form>
+        }
+        <form method="post">
+        <button class= "btn-success"  type="submit" asp-route-id=@orders.OrderId  asp-controller="Order" asp-action="RejectOrder">Удалить заказ </button>
+        </form>
+
+        </div>
+        @foreach(var cartItem in orders.OrderDetails){
+            <div class="col-5 m-3"> 
+                <div>
+                    <p> Заказаны следующие товары:</p>
+                    <p> Наименование товара: @cartItem.Product.Name </p>
+                    <p> Производитель:   @cartItem.Product.Manufacturer </p>
+                    <p> Цена:  @cartItem.Product.Cost BYN </p>
+                    <p> Количество товара: @cartItem.Quantity</p>
+                    <br>
+                </div>
+            </div>
+            }
+    </div>
+
+</div>
 }
- *@
+</div>

@@ -46,19 +46,23 @@ namespace КурсовойИнтернетМагазин.Controllers
         [Authorize(Roles = "admin")]
         public IActionResult AllOrders()
         {
+            ListOfOrdersViewModel listOfOrdersViewModel = new ListOfOrdersViewModel();
             List<OrderDTO> ordersDTOs = _orderService.GetAllOrders();
-            return View(ordersDTOs);
+            listOfOrdersViewModel.OrderDTOs = ordersDTOs;
+            return View(listOfOrdersViewModel);
         }
-
-        //public Task<IActionResult> ConfirmOrder()
-        //{
-
-        //}
-
-        //public Task<IActionResult> RejectOrder()
-        //{
-
-        //}
+        [HttpPost]
+        public async Task<IActionResult> ConfirmOrder(string id)
+        {
+            await _orderService.ConfirmOrder(id);
+            return RedirectToAction("AllOrders", "Order");
+        }
+        [HttpPost]
+        public async Task<IActionResult> RejectOrder(string id)
+        {
+            await _orderService.RejectOrder(id);
+            return RedirectToAction("AllOrders", "Order");
+        }
     }
 }
 

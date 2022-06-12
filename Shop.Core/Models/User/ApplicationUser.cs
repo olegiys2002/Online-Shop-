@@ -6,6 +6,6 @@ namespace Shop.Core.Models.User
 {
     public class ApplicationUser : IdentityUser
     {
-        //public List<Order> Orders { get; set; } = new();
+     
     }
 }

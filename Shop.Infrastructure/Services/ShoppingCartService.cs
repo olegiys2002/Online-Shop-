@@ -26,7 +26,7 @@ namespace Shop.Infrastructure.Services
      
         }
 
-        private string GetCartId()
+        public string GetCartId()
         {
             if (_contextAccessor.HttpContext.Session.GetString(CartIdSession) == null)
             {
@@ -118,5 +118,15 @@ namespace Shop.Infrastructure.Services
             return cartItemDTO;
         }
 
+        public async Task EmptyCartAsync()
+        {
+            string currentUserSession = GetCartId();
+            List<CartItem> listOfCartItems = await _unitOfWork.CartRepository.GetAllItemsAsync(currentUserSession);
+            foreach (var items in listOfCartItems)
+            {
+                _unitOfWork.CartRepository.DeleteFromCart(items);
+            }
+            await _unitOfWork.Complete();
+        }
     }
 }

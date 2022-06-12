@@ -39,7 +39,7 @@ namespace Shop.Application.DTO
 
         [ScaffoldColumn(false)]
         public int Total { get; set; }
-
+        public bool IsAccept { get; set; }
         public List<OrderDetailsDTO>? OrderDetails { get; set; }
 
     }

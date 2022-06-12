@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-КурсовойИнтернетМагазин-BF890E2A-3BA4-4B1C-BBBD-7771B1300148</UserSecretsId>
+	  <UserSecretsId>aspnet-КурсовойИнтернетМагазин-BF890E2A-3BA4-4B1C-BBBD-7771B1300148</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

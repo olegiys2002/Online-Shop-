@@ -41,7 +41,7 @@ namespace КурсовойИнтернетМагазин.Controllers
                 ProductDTO productDTO = editProductViewModel.productDTO;
                 await _productServise.UpdateProduct(productDTO);
                 await _productServise.SaveChangesAsync();
-                return RedirectToAction("HomePage", "Home");
+                return RedirectToAction("ListOfProducts", "Product");
             }
 
             return View();
@@ -66,8 +66,8 @@ namespace КурсовойИнтернетМагазин.Controllers
                 };
             
                 await _productServise.AddProductAsync(productDTO);              
-                await _productServise.SaveChangesAsync();  
-                return RedirectToAction("HomePage","Home");
+                await _productServise.SaveChangesAsync();
+                return RedirectToAction("ListOfProducts", "Product");
             }
             return View();
         }
@@ -86,7 +86,7 @@ namespace КурсовойИнтернетМагазин.Controllers
         {
                 await _productServise.DeleteProductAsync(id);
                 await _productServise.SaveChangesAsync();   
-                return RedirectToAction("HomePage", "Home");
+                return RedirectToAction("ListOfProducts", "Product");
         }
 
         public async Task<IActionResult> GetProductsByCategory(string categoryName)
