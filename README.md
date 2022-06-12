@@ -1,4 +1,5 @@
-Hello, this is my first project , where you can find such patterns as UnitOfWork , Repository and clean architercture.
+Hello, this is my first project , where you can find such patterns as UnitOfWork , Repository and clean architercture, DTO.
+The project has simple interface ,because i was focus on backend part of application.
 I used for this project such technologies as Asp net core MVC, Entity Framework,asp core Identity.
 In this application we have an admin , he can manage users,products (CRUD) ,orders.
 ALso we have customers , they have permament cart and order list.
