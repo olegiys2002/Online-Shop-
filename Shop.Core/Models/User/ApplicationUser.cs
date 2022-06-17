@@ -1,8 +1,8 @@
 ﻿
 using Microsoft.AspNetCore.Identity;
-using Shop.Core.Models.ProductModels;
-using Shop.Core.Models.Orders;
-namespace Shop.Core.Models.User
+using Shop.Domain.Models.ProductModels;
+using Shop.Domain.Models.Orders;
+namespace Shop.Domain.Models.User
 {
     public class ApplicationUser : IdentityUser
     {

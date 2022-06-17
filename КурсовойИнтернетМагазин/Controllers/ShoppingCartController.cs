@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Application.DTO;
-using Shop.Application.IServices;
-using КурсовойИнтернетМагазин.ViewModels.ShoppingCartViewModel;
+using Shop.Core.DTO;
+using Shop.Core.IServices;
+using ShopUI.ViewModels.ShoppingCartViewModel;
 
-namespace КурсовойИнтернетМагазин.Controllers
+namespace ShopUI.Controllers
 {
     public class ShoppingCartController : Controller
     {

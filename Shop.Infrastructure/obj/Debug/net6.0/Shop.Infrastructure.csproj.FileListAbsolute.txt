@@ -7,11 +7,11 @@ D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМа�
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Infrastructure.dll
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\ref\Shop.Infrastructure.dll
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Infrastructure.pdb
-D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Application.dll
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Core.dll
-D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Application.pdb
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Core.pdb
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.csproj.CopyComplete
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.dll
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\obj\Debug\net6.0\ref\Shop.Infrastructure.dll
 D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\obj\Debug\net6.0\Shop.Infrastructure.pdb
+D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Domain.dll
+D:\2 курс 2 сем\ООП\Курсач\КурсовойИнтернетМагазин\Shop.Infrastructure\bin\Debug\net6.0\Shop.Domain.pdb

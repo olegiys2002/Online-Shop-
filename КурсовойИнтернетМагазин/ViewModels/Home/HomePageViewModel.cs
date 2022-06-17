@@ -1,6 +1,6 @@
-﻿using Shop.Application.DTO;
+﻿using Shop.Core.DTO;
 
-namespace КурсовойИнтернетМагазин.ViewModels.Home
+namespace ShopUI.ViewModels.Home
 {
     public class HomePageViewModel
     {

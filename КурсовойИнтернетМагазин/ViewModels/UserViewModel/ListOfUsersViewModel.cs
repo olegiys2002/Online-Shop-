@@ -1,6 +1,6 @@
-﻿using Shop.Application.DTO;
+﻿using Shop.Core.DTO;
 
-namespace КурсовойИнтернетМагазин.ViewModels.UserViewModel
+namespace ShopUI.ViewModels.UserViewModel
 {
     public class ListOfUsersViewModel
     {

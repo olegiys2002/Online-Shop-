@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shop.Infrastructure.Data;
-using КурсовойИнтернетМагазин.Data;
+using ShopUI.Data;
 
 #nullable disable
 
-namespace КурсовойИнтернетМагазин.Data.Migrations
+namespace ShopUI.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220416070052_ProductModelUpdate")]

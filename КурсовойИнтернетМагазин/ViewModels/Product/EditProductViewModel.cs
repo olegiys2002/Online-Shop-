@@ -1,7 +1,7 @@
-﻿using Shop.Application.DTO;
+﻿using Shop.Core.DTO;
 using System.ComponentModel.DataAnnotations;
 
-namespace КурсовойИнтернетМагазин.ViewModels.Product
+namespace ShopUI.ViewModels.Product
 {
     public class EditProductViewModel
     {

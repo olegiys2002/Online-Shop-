@@ -699,20 +699,22 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "Shop.Application/1.0.0": {
+      "Shop.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Shop.Core": "1.0.0"
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Shop.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Shop.Application.dll": {}
+          "bin/placeholder/Shop.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shop.Application.dll": {}
+          "bin/placeholder/Shop.Core.dll": {}
         }
       },
-      "Shop.Core/1.0.0": {
+      "Shop.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -720,10 +722,10 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4"
         },
         "compile": {
-          "bin/placeholder/Shop.Core.dll": {}
+          "bin/placeholder/Shop.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Shop.Core.dll": {}
+          "bin/placeholder/Shop.Domain.dll": {}
         }
       }
     }
@@ -1782,15 +1784,15 @@
         "version.txt"
       ]
     },
-    "Shop.Application/1.0.0": {
-      "type": "project",
-      "path": "../Shop.Application/Shop.Application.csproj",
-      "msbuildProject": "../Shop.Application/Shop.Application.csproj"
-    },
     "Shop.Core/1.0.0": {
       "type": "project",
-      "path": "../Shop.Core/Shop.Core.csproj",
-      "msbuildProject": "../Shop.Core/Shop.Core.csproj"
+      "path": "../Shop.Application/Shop.Core.csproj",
+      "msbuildProject": "../Shop.Application/Shop.Core.csproj"
+    },
+    "Shop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Core/Shop.Domain.csproj",
+      "msbuildProject": "../Shop.Core/Shop.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1798,7 +1800,7 @@
       "Microsoft.AspNetCore.Hosting.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.4",
-      "Shop.Application >= 1.0.0"
+      "Shop.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1829,8 +1831,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj": {
-              "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj"
+            "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj": {
+              "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
-﻿using Shop.Application.DTO;
-using Shop.Core.Models.ProductModels;
+﻿using Shop.Core.DTO;
+using Shop.Domain.Models.ProductModels;
 using System.ComponentModel.DataAnnotations;
 
-namespace КурсовойИнтернетМагазин.ViewModels.Product
+namespace ShopUI.ViewModels.Product
 {
     public class AddProductViewModel
     {

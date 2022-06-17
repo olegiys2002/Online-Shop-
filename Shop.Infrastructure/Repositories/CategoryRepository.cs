@@ -1,5 +1,6 @@
-﻿using Shop.Application.IRepositories;
-using Shop.Core.Models.ProductModels;
+﻿
+using Shop.Core.IRepositories;
+using Shop.Domain.Models.ProductModels;
 using Shop.Infrastructure.Data;
 using System;
 using System.Collections.Generic;

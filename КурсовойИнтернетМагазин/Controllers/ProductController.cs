@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Shop.Application.DTO;
-using Shop.Application.IServices;
-using КурсовойИнтернетМагазин.ViewModels.Product;
+using Shop.Core.DTO;
+using Shop.Core.IServices;
+using ShopUI.ViewModels.Product;
 
-namespace КурсовойИнтернетМагазин.Controllers
+namespace ShopUI.Controllers
 {
     public class ProductController : Controller
     {

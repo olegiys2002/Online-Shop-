@@ -1,11 +1,11 @@
-﻿using Shop.Core.Models.User;
+﻿using Shop.Domain.Models.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.Application.IRepositories
+namespace Shop.Core.IRepositories
 {
     public interface IUserRepository
     {

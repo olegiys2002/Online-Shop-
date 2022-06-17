@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Shop.Application;
 using Shop.Infrastructure.Data;
-using Shop.Core.Models.ProductModels;
-using Shop.Application.IRepositories;
+using Shop.Domain.Models.ProductModels;
 using Microsoft.EntityFrameworkCore;
+using Shop.Core.IRepositories;
 
 namespace Shop.Infrastructure.Repositories
 {

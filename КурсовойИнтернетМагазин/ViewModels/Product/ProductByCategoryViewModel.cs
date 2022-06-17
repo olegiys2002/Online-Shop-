@@ -1,6 +1,6 @@
-﻿using Shop.Application.DTO;
+﻿using Shop.Core.DTO;
 
-namespace КурсовойИнтернетМагазин.ViewModels.Product
+namespace ShopUI.ViewModels.Product
 {
     public class ProductByCategoryViewModel
     {

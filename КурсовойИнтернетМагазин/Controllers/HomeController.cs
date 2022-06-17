@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Application.IServices;
+using Shop.Core.IServices;
 using System.Diagnostics;
-using КурсовойИнтернетМагазин.Models;
-using КурсовойИнтернетМагазин.ViewModels.Home;
+using ShopUI.Models;
+using ShopUI.ViewModels.Home;
 
-namespace КурсовойИнтернетМагазин.Controllers
+namespace ShopUI.Controllers
 {
     public class HomeController : Controller
     {

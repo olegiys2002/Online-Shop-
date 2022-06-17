@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace КурсовойИнтернетМагазин.Models
+namespace ShopUI.Models
 {
     public class RegisterViewModel
     {

@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Shop.Application;
-using Shop.Application.IRepositories;
-using Shop.Core.Models.User;
+using Shop.Core.IRepositories;
+using Shop.Domain.Models.User;
 using Shop.Infrastructure.Data;
 using System;
 using System.Collections.Generic;

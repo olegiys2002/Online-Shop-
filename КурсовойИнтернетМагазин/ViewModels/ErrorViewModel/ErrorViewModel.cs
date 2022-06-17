@@ -1,4 +1,4 @@
-namespace КурсовойИнтернетМагазин.Models
+namespace ShopUI.Models
 {
     public class ErrorViewModel
     {

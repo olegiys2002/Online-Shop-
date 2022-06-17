@@ -9,7 +9,7 @@ using Shop.Infrastructure.Data;
 
 #nullable disable
 
-namespace КурсовойИнтернетМагазин.Data.Migrations
+namespace ShopUI.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220602213159_RemoveOldFunctional")]

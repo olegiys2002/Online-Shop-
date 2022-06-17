@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Shop.Application.DTO;
+using Shop.Core.DTO;
 
 
-namespace Shop.Application.IServices
+namespace Shop.Core.IServices
 {
     public interface IAuthenticationService
     {

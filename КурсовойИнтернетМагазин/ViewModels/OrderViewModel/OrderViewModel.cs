@@ -1,6 +1,6 @@
-﻿using Shop.Application.DTO;
+﻿using Shop.Core.DTO;
 
-namespace КурсовойИнтернетМагазин.ViewModels.OrderViewModel
+namespace ShopUI.ViewModels.OrderViewModel
 {
     public class OrderViewModel
     {

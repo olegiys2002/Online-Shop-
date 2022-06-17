@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PdMM9ogvuz8gLLIF0Lb2GiY8X1QseskmL7G1XnNdr0gHo8mylwk/tLpvsdK4EcNojE5hcf2FA+n1IjFtD9KoPA==",
+  "dgSpecHash": "bi9Eas4Om2qjkns+KSz4xlEcv4gVXknb6B3c1CGz28wIEDTdxDjmg1yzVneY2OLVhwcYAJV80Yk9c84205MIeQ==",
   "success": true,
-  "projectFilePath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\КурсовойИнтернетМагазин\\КурсовойИнтернетМагазин.csproj",
+  "projectFilePath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\КурсовойИнтернетМагазин\\Shop.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿using Shop.Core.Models.ProductModels;
+﻿using Shop.Domain.Models.ProductModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.Core.Models.Orders
+namespace Shop.Domain.Models.Orders
 {
     public class OrderDetails
     {

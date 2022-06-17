@@ -1,12 +1,13 @@
-global using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Shop.Infrastructure.Repositories;
-using Shop.Core.Models.User;
+using Shop.Domain.Models.User;
 using Shop.Infrastructure.Data;
-using Shop.Application.IRepositories;
-using Shop.Application.IServices;
-using Shop.Infrastructure.Services;
+using Shop.Core.IServices;
 using Shop.Infrastructure;
+using Shop.Core.Services;
+using Shop.Core.IRepositories;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.ConfigureApplicationCookie(options => options.LoginPath = "/Account/Login");
-
 builder.Services.AddSession();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();

@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj": {
-                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj"
+              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
               }
             }
           }
@@ -153,8 +153,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj": {
-                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj"
+              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj": {
+                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj"
               }
             }
           }
@@ -226,6 +226,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj": {
+                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj"
+              },
               "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
                 "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
               }

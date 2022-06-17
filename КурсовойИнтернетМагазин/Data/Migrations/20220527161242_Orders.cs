@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace КурсовойИнтернетМагазин.Data.Migrations
+namespace ShopUI.Data.Migrations
 {
     public partial class Orders : Migration
     {

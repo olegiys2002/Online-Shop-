@@ -8,7 +8,7 @@ using Shop.Infrastructure.Data;
 
 #nullable disable
 
-namespace КурсовойИнтернетМагазин.Data.Migrations
+namespace ShopUI.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot

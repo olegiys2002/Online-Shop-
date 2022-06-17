@@ -1,9 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<ApplicationUser> SignInManager
-@inject UserManager<ApplicationUser> UserManager
-
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
+@if (User.Identity.IsAuthenticated)
 {
     <li class="nav-item">
         <a  class="nav-link active" title="Manage">Hello @User.Identity?.Name!</a>

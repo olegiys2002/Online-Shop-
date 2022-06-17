@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Shop.Core.Models.Cart;
-using Shop.Core.Models.Orders;
-using Shop.Core.Models.ProductModels;
-using Shop.Core.Models.User;
+using Shop.Domain.Models.Cart;
+using Shop.Domain.Models.Orders;
+using Shop.Domain.Models.ProductModels;
+using Shop.Domain.Models.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;

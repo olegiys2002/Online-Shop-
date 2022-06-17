@@ -808,9 +808,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj",
-      "projectName": "Shop.Core",
-      "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj",
+      "projectUniqueName": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj",
+      "projectName": "Shop.Domain",
+      "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj",
       "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
       "outputPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\obj\\",
       "projectStyle": "PackageReference",

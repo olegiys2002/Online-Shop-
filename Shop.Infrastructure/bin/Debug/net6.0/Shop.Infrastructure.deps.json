@@ -11,7 +11,7 @@
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4",
-          "Shop.Application": "1.0.0"
+          "Shop.Core": "1.0.0"
         },
         "runtime": {
           "Shop.Infrastructure.dll": {}
@@ -540,21 +540,23 @@
         }
       },
       "System.Text.Encodings.Web/4.5.0": {},
-      "Shop.Application/1.0.0": {
+      "Shop.Core/1.0.0": {
         "dependencies": {
-          "Shop.Core": "1.0.0"
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Shop.Domain": "1.0.0"
         },
         "runtime": {
-          "Shop.Application.dll": {}
+          "Shop.Core.dll": {}
         }
       },
-      "Shop.Core/1.0.0": {
+      "Shop.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "5.0.16",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4"
         },
         "runtime": {
-          "Shop.Core.dll": {}
+          "Shop.Domain.dll": {}
         }
       }
     }
@@ -922,12 +924,12 @@
       "path": "system.text.encodings.web/4.5.0",
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
-    "Shop.Application/1.0.0": {
+    "Shop.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Shop.Core/1.0.0": {
+    "Shop.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

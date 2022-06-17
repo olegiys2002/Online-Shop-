@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8uEdETfdpN8D93F5vc0ag1yMiux63G35jp91CLxfKL1EUxEZECcHf0udBmRLoKJw6ia4XxLwoYWLLHNz3AyvgQ==",
+  "dgSpecHash": "uJGpeFhPyV3gWKiNhUGEp37XTPAxvqcVmDopYe8TyHIZJ6CbmEQLsnICq24/umq59HHI2F137UABtOnLGyLo3Q==",
   "success": true,
-  "projectFilePath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj",
+  "projectFilePath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.4\\microsoft.aspnetcore.cryptography.internal.6.0.4.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.4\\microsoft.aspnetcore.cryptography.keyderivation.6.0.4.nupkg.sha512",

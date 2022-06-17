@@ -4,12 +4,12 @@
     "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj": {
+    "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj",
-        "projectName": "Shop.Application",
-        "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj",
+        "projectUniqueName": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj",
+        "projectName": "Shop.Core",
+        "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
         "outputPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj": {
-                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj"
+              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj": {
+                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj"
               }
             }
           }
@@ -44,6 +44,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,12 +73,12 @@
         }
       }
     },
-    "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj": {
+    "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj",
-        "projectName": "Shop.Core",
-        "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Core.csproj",
+        "projectUniqueName": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj",
+        "projectName": "Shop.Domain",
+        "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
         "outputPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -153,8 +163,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj": {
-                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Application.csproj"
+              "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj": {
+                "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj"
               }
             }
           }

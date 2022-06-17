@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace КурсовойИнтернетМагазин.Data.Migrations
+namespace ShopUI.Data.Migrations
 {
     public partial class UserUpdate : Migration
     {

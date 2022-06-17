@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Shop.Application.IRepositories;
-using Shop.Core.Models.Orders;
+using Shop.Core.IRepositories;
+using Shop.Domain.Models.Orders;
 using Shop.Infrastructure.Data;
 
 namespace Shop.Infrastructure.Repositories

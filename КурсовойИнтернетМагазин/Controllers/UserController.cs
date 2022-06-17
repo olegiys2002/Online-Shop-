@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Shop.Application.DTO;
-using Shop.Application.IServices;
-using КурсовойИнтернетМагазин.ViewModels.UserViewModel;
+using Shop.Core.DTO;
+using Shop.Core.IServices;
+using ShopUI.ViewModels.UserViewModel;
 
-namespace КурсовойИнтернетМагазин.Controllers
+namespace ShopUI.Controllers
 {
    [Authorize(Roles ="admin")]
     public class UserController : Controller

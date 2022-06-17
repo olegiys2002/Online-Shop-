@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Application.DTO;
-using Shop.Application.IServices;
-using Shop.Core.Models.User;
-using КурсовойИнтернетМагазин.Models;
+using Shop.Core.DTO;
+using Shop.Core.IServices;
+using Shop.Domain.Models.User;
+using ShopUI.Models;
 
-namespace КурсовойИнтернетМагазин.Controllers
+namespace ShopUI.Controllers
 {
     public class AccountController : Controller
     {

@@ -1,7 +1,7 @@
-﻿using Shop.Application.DTO;
-using Shop.Core.Models.User;
+﻿using Shop.Core.DTO;
+using Shop.Domain.Models.User;
 
-namespace КурсовойИнтернетМагазин.ViewModels.ShoppingCartViewModel
+namespace ShopUI.ViewModels.ShoppingCartViewModel
 {
     public class CartShopViewModel
     {

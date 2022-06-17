@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Shop.Application.IRepositories;
-using Shop.Core.Models.Cart;
+using Shop.Core.IRepositories;
+using Shop.Domain.Models.Cart;
 using Shop.Infrastructure.Data;
 using System;
 using System.Collections.Generic;

@@ -1,11 +1,11 @@
-﻿using Shop.Application.IRepositories;
+﻿using Shop.Core.IRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.Application.IServices
+namespace Shop.Core.IServices
 {
     public interface IUnitOfWork
     {
