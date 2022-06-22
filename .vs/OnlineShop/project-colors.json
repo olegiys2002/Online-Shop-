@@ -18,7 +18,7 @@
     },
     "8798dfce-29e9-41d1-b08e-01ce9a606a37": {
       "ProjectGuid": "8798dfce-29e9-41d1-b08e-01ce9a606a37",
-      "DisplayName": "Shop.Core",
+      "DisplayName": "Shop.UseCases",
       "ColorIndex": 2
     },
     "fb025c31-c60e-4b82-bd4f-bbe651c76f81": {
@@ -35,7 +35,12 @@
       "ProjectGuid": "7bfa4174-3e8f-47b0-923f-3873345c6a04",
       "DisplayName": "Shop.Infrastructure.IoC",
       "ColorIndex": 5
+    },
+    "a8a16fd3-8062-45ae-af07-d1011693b4f4": {
+      "ProjectGuid": "a8a16fd3-8062-45ae-af07-d1011693b4f4",
+      "DisplayName": "Shop.UI",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
