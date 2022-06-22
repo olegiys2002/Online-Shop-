@@ -3,11 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Shop.Infrastructure.Repositories;
 using Shop.Domain.Models.User;
 using Shop.Infrastructure.Data;
-using Shop.Core.IServices;
 using Shop.Infrastructure;
-using Shop.Core.Services;
-using Shop.Core.IRepositories;
-
+using Shop.Infrastructure.Services;
+using Shop.Domain.IRepositories;
+using Shop.Domain.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 

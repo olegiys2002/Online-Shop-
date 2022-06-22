@@ -1,5 +1,5 @@
 ﻿
-using Shop.Core.IRepositories;
+using Shop.Domain.IRepositories;
 using Shop.Domain.Models.ProductModels;
 using Shop.Infrastructure.Data;
 using System;

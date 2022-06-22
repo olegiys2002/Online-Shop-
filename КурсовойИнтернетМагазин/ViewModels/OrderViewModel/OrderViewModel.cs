@@ -1,4 +1,4 @@
-﻿using Shop.Core.DTO;
+﻿using Shop.Domain.DTO;
 
 namespace ShopUI.ViewModels.OrderViewModel
 {

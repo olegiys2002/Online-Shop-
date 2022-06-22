@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Core.IServices;
 using System.Diagnostics;
 using ShopUI.Models;
 using ShopUI.ViewModels.Home;
+using Shop.Domain.IServices;
 
 namespace ShopUI.Controllers
 {

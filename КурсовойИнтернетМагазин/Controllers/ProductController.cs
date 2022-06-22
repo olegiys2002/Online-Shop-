@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Shop.Core.DTO;
-using Shop.Core.IServices;
+using Shop.Domain.DTO;
+using Shop.Domain.IServices;
 using ShopUI.ViewModels.Product;
 
 namespace ShopUI.Controllers

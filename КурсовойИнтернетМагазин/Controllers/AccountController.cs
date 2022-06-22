@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Core.DTO;
-using Shop.Core.IServices;
+using Shop.Domain.DTO;
+using Shop.Domain.IServices;
 using Shop.Domain.Models.User;
 using ShopUI.Models;
 

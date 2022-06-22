@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shop.Core.DTO;
-using Shop.Core.IServices;
+using Shop.Domain.DTO;
 using ShopUI.ViewModels.ShoppingCartViewModel;
+using Shop.Domain.IServices;
 
 namespace ShopUI.Controllers
 {

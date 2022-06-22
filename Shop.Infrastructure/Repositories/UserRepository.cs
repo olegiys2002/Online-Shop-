@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Shop.Core.IRepositories;
+using Shop.Domain.IRepositories;
 using Shop.Domain.Models.User;
 using Shop.Infrastructure.Data;
 using System;

@@ -1,5 +1,5 @@
-﻿using Shop.Core.IRepositories;
-using Shop.Core.IServices;
+﻿using Shop.Domain.IRepositories;
+using Shop.Domain.IServices;
 using Shop.Infrastructure.Data;
 using System;
 using System.Collections.Generic;

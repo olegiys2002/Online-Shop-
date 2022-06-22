@@ -1,4 +1,4 @@
-﻿using Shop.Core.DTO;
+﻿using Shop.Domain.DTO;
 using System.ComponentModel.DataAnnotations;
 
 namespace ShopUI.ViewModels.Product

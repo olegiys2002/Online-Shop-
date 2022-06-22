@@ -3438,21 +3438,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Shop.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Shop.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Shop.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shop.Core.dll": {}
-        }
-      },
       "Shop.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3474,7 +3459,7 @@
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.4",
-          "Shop.Core": "1.0.0"
+          "Shop.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Shop.Infrastructure.dll": {}
@@ -10452,11 +10437,6 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Shop.Core/1.0.0": {
-      "type": "project",
-      "path": "../Shop.Application/Shop.Core.csproj",
-      "msbuildProject": "../Shop.Application/Shop.Core.csproj"
     },
     "Shop.Domain/1.0.0": {
       "type": "project",

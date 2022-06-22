@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Shop.Core.IRepositories;
+using Shop.Domain.IRepositories;
 using Shop.Domain.Models.Orders;
 using Shop.Infrastructure.Data;
 

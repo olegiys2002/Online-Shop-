@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Shop.Infrastructure.Data;
 using Shop.Domain.Models.ProductModels;
 using Microsoft.EntityFrameworkCore;
-using Shop.Core.IRepositories;
+using Shop.Domain.IRepositories;
 
 namespace Shop.Infrastructure.Repositories
 {

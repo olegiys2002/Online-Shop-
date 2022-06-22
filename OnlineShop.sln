@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UI", "Курсовой
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Domain", "Shop.Core\Shop.Domain.csproj", "{677F3F02-009B-4D4D-8A10-F685D8F00E51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Core", "Shop.Application\Shop.Core.csproj", "{8798DFCE-29E9-41D1-B08E-01CE9A606A37}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Infrastructure", "Shop.Infrastructure\Shop.Infrastructure.csproj", "{FB025C31-C60E-4B82-BD4F-BBE651C76F81}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{677F3F02-009B-4D4D-8A10-F685D8F00E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{677F3F02-009B-4D4D-8A10-F685D8F00E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{677F3F02-009B-4D4D-8A10-F685D8F00E51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8798DFCE-29E9-41D1-B08E-01CE9A606A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8798DFCE-29E9-41D1-B08E-01CE9A606A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8798DFCE-29E9-41D1-B08E-01CE9A606A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8798DFCE-29E9-41D1-B08E-01CE9A606A37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FB025C31-C60E-4B82-BD4F-BBE651C76F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FB025C31-C60E-4B82-BD4F-BBE651C76F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB025C31-C60E-4B82-BD4F-BBE651C76F81}.Release|Any CPU.ActiveCfg = Release|Any CPU

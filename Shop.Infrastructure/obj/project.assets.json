@@ -699,21 +699,6 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "Shop.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Shop.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Shop.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shop.Core.dll": {}
-        }
-      },
       "Shop.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1784,11 +1769,6 @@
         "version.txt"
       ]
     },
-    "Shop.Core/1.0.0": {
-      "type": "project",
-      "path": "../Shop.Application/Shop.Core.csproj",
-      "msbuildProject": "../Shop.Application/Shop.Core.csproj"
-    },
     "Shop.Domain/1.0.0": {
       "type": "project",
       "path": "../Shop.Core/Shop.Domain.csproj",
@@ -1800,7 +1780,7 @@
       "Microsoft.AspNetCore.Hosting.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.4",
-      "Shop.Core >= 1.0.0"
+      "Shop.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1831,8 +1811,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj": {
-              "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Application\\Shop.Core.csproj"
+            "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj": {
+              "projectPath": "D:\\2 курс 2 сем\\ООП\\Курсач\\КурсовойИнтернетМагазин\\Shop.Core\\Shop.Domain.csproj"
             }
           }
         }
